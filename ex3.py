@@ -7,3 +7,4 @@ for i in range(len(nomes)):
         print(f"Nome: {nome} encontrado na posição {i}")
     else:
         print("Nome não encontrado")
+        break
