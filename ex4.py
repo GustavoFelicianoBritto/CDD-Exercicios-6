@@ -4,6 +4,9 @@ maiormedia=0
 
 for i in range(len(notas)):
     notas[i]=float(input(f"Digite a {i+1} nota: ").replace(',','.'))
+    #soma += notas[i]
+
+for i in range(len(notas)):
     soma += notas[i]
 
 media = soma/ len(notas)
